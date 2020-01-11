@@ -1,0 +1,28 @@
+
+#fixed {
+    width: 100%;
+    position: fixed;	/* 要素の位置を固定する */
+    bottom: 0;	/* 基準の位置を画面の一番下に指定する */	
+    background-color: rgba(152,67,255,0.55);
+    background: -webkit-linear-gradient(65deg,#9843FF 30%,#564C62 40%);
+    background: linear-gradient(180deg, #564C62 30%,#9843FF);
+    padding: 2%;
+    padding-bottom: 10px;
+    z-index: 2;
+    }
+#mapcontainer{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+}
+.submit{
+    height: 60px;
+    border: 3px solid #000;	/* ボーダーを指定する */
+    font-size:150%;
+    border-radius: 25px;
+    z-index: 2;
+    background-color: #fff;
+}
