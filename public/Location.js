@@ -33,4 +33,4 @@ const getCurrentLocation = async () => {
   };
 };
 
-export default getCurrentLocation;
+export { getCurrentLocation };
